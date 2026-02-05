@@ -11,8 +11,6 @@ relocation status, and retrieve household goods moving details.
 
 ## Contents
 - **sirva-relocation-api.yaml**  
-  OpenAPI 3.0 specification serving as the single source of truth
-  for the API.
 
 - **api-documentation.md**  
   Human-readable API documentation including endpoint explanations,
@@ -21,19 +19,7 @@ relocation status, and retrieve household goods moving details.
 ## How to View the API Reference
 The OpenAPI file can be rendered using tools such as:
 - Swagger UI
-- Redoc
-- Stoplight
-
-Example:
-1. Open https://editor.swagger.io
-2. Upload `sirva-relocation-api.yaml`
-3. View the auto-generated API reference
-
-## Assumptions
-- Authentication is handled via Bearer tokens (JWT).
-- The API is intended for enterprise HR integrations.
-- The API is designed to be scalable across multiple countries.
-
+  
 ## Purpose
 This documentation was created as part of an API documentation
 assessment to demonstrate technical writing, OpenAPI knowledge,
